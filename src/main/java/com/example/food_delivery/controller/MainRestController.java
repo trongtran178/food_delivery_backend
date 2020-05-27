@@ -10,12 +10,19 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.food_delivery.dao.EmployeeDAO;
+import com.example.food_delivery.dao.RestaurantDAO;
 import com.example.food_delivery.model.Employee;
+import com.example.food_delivery.model.Response;
+import com.example.food_delivery.model.Restaurant;
 
 @RestController
 public class MainRestController {
 	@Autowired
 	private EmployeeDAO employeeDAO;
+
+	@Autowired
+	private RestaurantDAO restaurantDAO;
+
 
 	@RequestMapping("/")
 	@ResponseBody
@@ -23,8 +30,6 @@ public class MainRestController {
 		return "Welcome to my shit";
 	}
 
-	// URL:
-	// http://localhost:8080/employees
 	@RequestMapping(//
 			value = "/employees", //
 			method = RequestMethod.GET, //
@@ -34,4 +39,20 @@ public class MainRestController {
 		List<Employee> list = employeeDAO.getAllEmployees();
 		return list;
 	}
+
+	@RequestMapping(//
+			value = "/restaurants", //
+			method = RequestMethod.GET, //
+			produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
+	@ResponseBody
+	public Response getRestaurants() {
+		List<Restaurant> restaurants = restaurantDAO.getAllRestaurants();
+		return new Response(200, "success", true, (Object) restaurants);
+		// return restaurants;
+
+				
+
+	}
+
+
 }
