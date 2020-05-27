@@ -17,6 +17,7 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		
 	</properties>
 
 	<dependencies>
@@ -107,15 +108,3 @@
 	</build>
 
 </project>
-<!-- 
-	<plugin>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<configuration>
-					<release>14</release>
-					<compilerArgs>
-						<arg>--enable-preview</arg>
-					</compilerArgs>
-					<forceJavacCompilerUse>true</forceJavacCompilerUse>
-					<parameters>true</parameters>
-				</configuration>
-			</plugin> -->
