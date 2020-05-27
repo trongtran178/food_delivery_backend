@@ -23,7 +23,6 @@ public class MainRestController {
 	@Autowired
 	private RestaurantDAO restaurantDAO;
 
-
 	@RequestMapping("/")
 	@ResponseBody
 	public String welcome() {
@@ -46,13 +45,12 @@ public class MainRestController {
 			produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	@ResponseBody
 	public Response getRestaurants() {
-		List<Restaurant> restaurants = restaurantDAO.getAllRestaurants();
-		return new Response(200, "success", true, (Object) restaurants);
-		// return restaurants;
-
-				
-
+		try {
+			List<Restaurant> restaurants = restaurantDAO.getAllRestaurants();
+			return new Response(200, "success", true, (Object) restaurants);
+		} catch (Exception ex) {
+			return new Response(503, "fail", false, "cac");
+		}
 	}
-
 
 }
