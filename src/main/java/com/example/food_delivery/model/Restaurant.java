@@ -6,31 +6,30 @@ import java.util.List;
 public class Restaurant {
     private String name;
     private String address;
-    private List<String> images;
     private String phone;
-    private Date timeClose;
     private Date timeOpen;
+    private Date timeClose;
     private String description;
-    private String wifi;
     private String province;
+    private String avatarUrl;
+    private List<String> imagesUrl;
+    private String wifi;
 
-    public Restaurant(String name, String address, List<String> images) {
-        this.name = name;
-        this.address = address;
-        this.images = images;
+    public Restaurant() {
     }
 
-    public Restaurant(String name, String address, List<String> images, String phone, Date timeClose, Date timeOpen,
-            String description, String wifi, String province) {
+    public Restaurant(String name, String address, String phone, Date timeOpen, Date timeClose, String description,
+            String province, String avatarUrl, List<String> imagesUrl, String wifi) {
         this.name = name;
         this.address = address;
-        this.images = images;
         this.phone = phone;
-        this.timeClose = timeClose;
         this.timeOpen = timeOpen;
+        this.timeClose = timeClose;
         this.description = description;
-        this.wifi = wifi;
         this.province = province;
+        this.avatarUrl = avatarUrl;
+        this.imagesUrl = imagesUrl;
+        this.wifi = wifi;
     }
 
     public String getName() {
@@ -49,28 +48,12 @@ public class Restaurant {
         this.address = address;
     }
 
-    public List<String> getImages() {
-        return images;
-    }
-
-    public void setImages(List<String> images) {
-        this.images = images;
-    }
-
     public String getPhone() {
         return phone;
     }
 
     public void setPhone(String phone) {
         this.phone = phone;
-    }
-
-    public Date getTimeClose() {
-        return timeClose;
-    }
-
-    public void setTimeClose(Date timeClose) {
-        this.timeClose = timeClose;
     }
 
     public Date getTimeOpen() {
@@ -81,6 +64,14 @@ public class Restaurant {
         this.timeOpen = timeOpen;
     }
 
+    public Date getTimeClose() {
+        return timeClose;
+    }
+
+    public void setTimeClose(Date timeClose) {
+        this.timeClose = timeClose;
+    }
+
     public String getDescription() {
         return description;
     }
@@ -89,20 +80,36 @@ public class Restaurant {
         this.description = description;
     }
 
-    public String getWifi() {
-        return wifi;
-    }
-
-    public void setWifi(String wifi) {
-        this.wifi = wifi;
-    }
-
     public String getProvince() {
         return province;
     }
 
     public void setProvince(String province) {
         this.province = province;
+    }
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public void setAvatarUrl(String avatarUrl) {
+        this.avatarUrl = avatarUrl;
+    }
+
+    public List<String> getImagesUrl() {
+        return imagesUrl;
+    }
+
+    public void setImagesUrl(List<String> imagesUrl) {
+        this.imagesUrl = imagesUrl;
+    }
+
+    public String getWifi() {
+        return wifi;
+    }
+
+    public void setWifi(String wifi) {
+        this.wifi = wifi;
     }
 
 }

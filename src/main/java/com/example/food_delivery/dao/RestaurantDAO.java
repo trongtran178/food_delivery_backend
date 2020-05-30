@@ -1,7 +1,10 @@
 package com.example.food_delivery.dao;
 
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
+import java.util.TimeZone;
 
 import com.example.food_delivery.model.Restaurant;
 
@@ -22,19 +25,55 @@ public class RestaurantDAO {
 		fakeImages.add("https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595129/restaurant_1_pnynjn.jpg");
 		fakeImages.add("https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595130/restaurant_2_xar8om.jpg");
 		fakeImages.add("https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595130/restaurant_4_qftatg.jpg");
-		restaurants.add(new Restaurant("Mr Beer steak & ribs",
-				"56-58 Bùi Thị Xuân, Phường Phạm Ngũ Lão, Quận 1, Hồ Chí Minh", fakeImages));
 
-		restaurants.add(new Restaurant("Bun bo hue co Cuc", "40/13 Nguyễn Văn Đậu, Phường 6, Bình Thạnh, Hồ Chí Minh",
-				fakeImages));
-
-		restaurants.add(new Restaurant("Top Of The Town Restaurant",
-				"Khách sạn Windsor Plaza Hotel, Tầng 25, 18 An Dương Vương, Phường 9, Quận 5, Hồ Chí Minh 67337",
-				fakeImages));
-
-		restaurants.add(new Restaurant("R&J Italian Lounge & Restaurant",
-				"The Reverie Saigon (level B1), 22-36 Nguyen Hue Boulevard, Ben Nghe Ward, District 1, Hồ Chí Minh",
-				fakeImages));
+		Calendar timeOpenCalendar = Calendar.getInstance();
+		Calendar timeCloseCalendar = Calendar.getInstance();
+		timeOpenCalendar.setTimeZone(TimeZone.getTimeZone("248")); // 248 - Asia/Bangkok Timezone ID
+		timeCloseCalendar.setTimeZone(TimeZone.getTimeZone("248")); // 248 - Asia/Bangkok Timezone ID
+		timeOpenCalendar.set(1900, 0, 1, 7, 0, 0);
+		timeCloseCalendar.set(1900, 0, 1, 23, 0, 0);
+		Date timeOpen = timeOpenCalendar.getTime();
+		Date timeClose = timeCloseCalendar.getTime();
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi"));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi"));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi"));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi"));
 	}
 
 	public List<Restaurant> getAllRestaurants() {

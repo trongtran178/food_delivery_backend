@@ -12,8 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.food_delivery.dao.EmployeeDAO;
 import com.example.food_delivery.dao.RestaurantDAO;
 import com.example.food_delivery.model.Employee;
-import com.example.food_delivery.model.Response;
 import com.example.food_delivery.model.Restaurant;
+import com.example.food_delivery.model.api.Response;
+import com.fasterxml.jackson.core.JsonProcessingException;
 
 @RestController
 public class MainRestController {
@@ -26,7 +27,7 @@ public class MainRestController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String welcome() {
-		return "Welcome to my shit";
+		return "Welcome to my home";
 	}
 
 	@RequestMapping(//
@@ -42,12 +43,13 @@ public class MainRestController {
 	@RequestMapping(//
 			value = "/restaurants", //
 			method = RequestMethod.GET, //
-			produces = MediaType.APPLICATION_JSON_UTF8_VALUE)
-	@ResponseBody
-	public Response getRestaurants() {
+			produces = MediaType.APPLICATION_JSON_UTF8_VALUE
+			)
+	@ResponseBody()
+	public Response getRestaurants() throws JsonProcessingException {
 		try {
 			List<Restaurant> restaurants = restaurantDAO.getAllRestaurants();
-			return new Response(200, "success", true, (Object) restaurants);
+			return new Response(200, "success", true, restaurants); 
 		} catch (Exception ex) {
 			return new Response(503, "fail", false, "cac");
 		}

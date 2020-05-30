@@ -1,4 +1,7 @@
-package com.example.food_delivery.model;
+package com.example.food_delivery.model.api;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Response {
     private int code; // 200, 300, 400, 502, ...
@@ -11,6 +14,10 @@ public class Response {
         this.status = status;
         this.isSuccess = isSuccess;
         this.results = results;
+    }
+
+    public static String toJson(Response response) throws JsonProcessingException {
+        return new ObjectMapper().writeValueAsString(response);
     }
 
     public int getCode() {
