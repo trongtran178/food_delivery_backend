@@ -86,6 +86,474 @@ public class RestaurantDAO {
 				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
 				fakeImages, //
 				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("HOME Finest Saigon", //
+				" 252 Điện Biên Phủ, Phường 7, Quận 3, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
+		restaurants.add(new Restaurant("Quán Ông Tiên - Chi Nhánh 1", //
+				"225 Phạm Thế Hiển, Phường 3, Quận 8, Hồ Chí Minh", //
+				"0938277668", //
+				timeOpen, //
+				timeClose, //
+				"Bình dân - Phù hợp khi đi theo nhóm - Bia", //
+				"TP.HCM", //
+				"https://res.cloudinary.com/dbqpvzvem/image/upload/v1590595131/restaurant_3_joe6mq.jpg", //
+				fakeImages, //
+				"temp wifi", 10.843972, 106.767511));
 	}
 
 	public List<Restaurant> getAllRestaurants() {
