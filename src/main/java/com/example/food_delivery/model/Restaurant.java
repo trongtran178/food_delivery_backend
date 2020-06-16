@@ -14,6 +14,8 @@ public class Restaurant {
     private String avatarUrl;
     private List<String> imagesUrl;
     private String wifi;
+    private double latitude;
+    private double longitude;
 
     public Restaurant() {
     }
@@ -30,6 +32,22 @@ public class Restaurant {
         this.avatarUrl = avatarUrl;
         this.imagesUrl = imagesUrl;
         this.wifi = wifi;
+    }
+
+    public Restaurant(String name, String address, String phone, Date timeOpen, Date timeClose, String description,
+            String province, String avatarUrl, List<String> imagesUrl, String wifi, double latitude, double longitude) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
+        this.timeOpen = timeOpen;
+        this.timeClose = timeClose;
+        this.description = description;
+        this.province = province;
+        this.avatarUrl = avatarUrl;
+        this.imagesUrl = imagesUrl;
+        this.wifi = wifi;
+        this.latitude = latitude;
+        this.longitude = longitude;
     }
 
     public String getName() {
@@ -110,6 +128,22 @@ public class Restaurant {
 
     public void setWifi(String wifi) {
         this.wifi = wifi;
+    }
+
+    public double getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(double latitude) {
+        this.latitude = latitude;
+    }
+
+    public double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(double longitude) {
+        this.longitude = longitude;
     }
 
 }
