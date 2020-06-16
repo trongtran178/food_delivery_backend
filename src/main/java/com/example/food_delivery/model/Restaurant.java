@@ -4,6 +4,7 @@ import java.util.Date;
 import java.util.List;
 
 public class Restaurant {
+    private int id;
     private String name;
     private String address;
     private String phone;
@@ -20,8 +21,9 @@ public class Restaurant {
     public Restaurant() {
     }
 
-    public Restaurant(String name, String address, String phone, Date timeOpen, Date timeClose, String description,
-            String province, String avatarUrl, List<String> imagesUrl, String wifi) {
+    public Restaurant(int id, String name, String address, String phone, Date timeOpen, Date timeClose,
+            String description, String province, String avatarUrl, List<String> imagesUrl, String wifi) {
+        this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
@@ -34,8 +36,10 @@ public class Restaurant {
         this.wifi = wifi;
     }
 
-    public Restaurant(String name, String address, String phone, Date timeOpen, Date timeClose, String description,
-            String province, String avatarUrl, List<String> imagesUrl, String wifi, double latitude, double longitude) {
+    public Restaurant(int id, String name, String address, String phone, Date timeOpen, Date timeClose,
+            String description, String province, String avatarUrl, List<String> imagesUrl, String wifi, double latitude,
+            double longitude) {
+        this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
@@ -48,6 +52,14 @@ public class Restaurant {
         this.wifi = wifi;
         this.latitude = latitude;
         this.longitude = longitude;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {

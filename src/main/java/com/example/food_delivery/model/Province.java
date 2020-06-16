@@ -1,16 +1,14 @@
 package com.example.food_delivery.model;
 
-public class Menu {
+public class Province {
     private int id;
     private String name;
     private String slug;
-    private String query;
 
-    public Menu(int id, String name, String slug, String query) {
+    public Province(int id, String name, String slug) {
         this.id = id;
         this.name = name;
         this.slug = slug;
-        this.query = query;
     }
 
     public int getId() {
@@ -35,14 +33,6 @@ public class Menu {
 
     public void setSlug(String slug) {
         this.slug = slug;
-    }
-
-    public String getQuery() {
-        return query;
-    }
-
-    public void setQuery(String query) {
-        this.query = query;
     }
 
 }
