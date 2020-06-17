@@ -5,14 +5,14 @@ public class FoodMenu {
     private Food food;
     private Menu menu;
     private double price;
-    private String avatarUrl;
+    private String foodAvatarUrl;
 
-    public FoodMenu(int id, Food food, Menu menu, double price, String avatarUrl) {
+    public FoodMenu(int id, Food food, Menu menu, double price, String foodAvatarUrl) {
         this.id = id;
         this.food = food;
         this.menu = menu;
         this.price = price;
-        this.avatarUrl = avatarUrl;
+        this.foodAvatarUrl = foodAvatarUrl;
     }
 
     public int getId() {
@@ -47,12 +47,12 @@ public class FoodMenu {
         this.price = price;
     }
 
-    public String getAvatarUrl() {
-        return avatarUrl;
+    public String getFoodAvatarUrl() {
+        return foodAvatarUrl;
     }
 
-    public void setAvatarUrl(String avatarUrl) {
-        this.avatarUrl = avatarUrl;
+    public void setFoodAvatarUrl(String foodAvatarUrl) {
+        this.foodAvatarUrl = foodAvatarUrl;
     }
 
 }
